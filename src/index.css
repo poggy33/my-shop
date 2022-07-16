@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: honeydew;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  text-align: left;
+  margin-left: 10%;
+  margin: 20px 20px 30px;
+}
+span {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home {
+  display: flex;
+}
+
+.markets {
+  width: 220px;
+  margin-right: 20px;
+}
+
+.markets a {
+  text-decoration: none;
+  display: block;
+  margin: 20px;
+  border: olivedrab 1px solid;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.submit {
+  border-radius: 5px;
+  background-color: rgb(10, 136, 130);
+  color: white;
+  width: 80px;
+  height: 30px;
+  margin: 18px 30px auto 30px;
+}
+
+.submit:hover, .add:hover {
+  background-color: rgb(36, 109, 105);
+}
+
+.markets a:hover {
+  background-color: thistle;
+}
+
+label {
+  text-align: left;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  max-height: 70%;
+  width: 60%;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 30px 0 30px;
+
+}
+
+.overflow {
+  height: 400px;
+  overflow: auto;
+}
+
+.checkout {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 25%;
+  margin-left: 20px;
+  width: 35%;
+}
+
+.form input {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 100px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: burlywood;
+}
+
+.cart-item img {
+  height: 80px;
+}
+
+.cart-item input {
+  width: 50px;
+}
+
+.cart-item .cart-price p {
+  padding-top: 0px;
+}
+
+.cart-price input {
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  height: 250px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: burlywood;
+  margin: 30px;
+}
+
+.item button {
+  border-radius: 5px;
+  background-color: rgb(10, 136, 130);
+  color: white;
+}
+
+img {
+  height: 140px;
+}
+h4 {
+  margin: 0;
+}
+
+.containercart {
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  border-radius: 70%;
+  margin-left: 5px;
+  padding: 0 5px;
+  font-size: small;
+  background-color: black;
+  color: ivory;
+}

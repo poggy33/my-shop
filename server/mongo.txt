@@ -1,0 +1,148 @@
+db.macs.insertMany([
+{
+    id: 1,
+    title: "Barbecue Hamburger",
+    price: 5.49,
+    img: "https://www.pngall.com/wp-content/uploads/5/Barbecue-Hamburger-PNG-Free-Download.png",
+    amount: 1,
+  },
+  {
+    id: 2,
+    title: "Double Cheeseburger",
+    price: 5.99,
+    img: "https://wiki.redage.net/images/2/23/WBurger.png",
+    amount: 1,
+  },
+  {
+    id: 3,
+    title: "Burger Fish",
+    price: 4.49,
+    img: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Filet-O-Fish_transparent.png",
+    amount: 1,
+  },
+  {
+    id: 4,
+    title: "Burger Sandwich",
+    price: 4.99,
+    img: "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96737.png",
+    amount: 1,
+  },
+  {
+    id: 5,
+    title: "Cheeseburger",
+    price: 5.99,
+    img: "https://upload.wikimedia.org/wikipedia/commons/1/11/Cheeseburger.png",
+    amount: 1,
+  }
+])
+
+
+db.pepsis.insertMany([
+{
+      id: 301,
+      title: "Pepsi 0.33",
+      price: 0.89,
+      img: "https://avatanplus.com/files/resources/original/56a5207254a7d1527506beab.png",
+      amount: 1,
+    },
+    {
+      id: 302,
+      title: "Pepsi 0.5",
+      price: 0.99,
+      img: "https://avatanplus.com/files/resources/original/585e71e152d4315930ecd83b.png",
+      amount: 1,
+    },
+    {
+      id: 303,
+      title: "Pepsi 1.0",
+      price: 1.49,
+      img: "https://avatanplus.com/files/resources/original/585e71e1aedbb15930ecd9b4.png",
+      amount: 1,
+    },
+    {
+      id: 304,
+      title: "Sprite 1.0",
+      price: 1.49,
+      img: "https://avatanplus.com/files/resources/original/585e71e2a4dba15930ecdd73.png",
+      amount: 1,
+    },
+    {
+      id: 305,
+      title: "Sprite 1.0 zero",
+      price: 1.99,
+      img: "https://avatanplus.com/files/resources/original/585e71e2bcbae15930ecddd5.png",
+      amount: 1,
+    }
+])
+
+
+db.colas.insertMany([
+    {
+      id: 201,
+      title: "Coca-Cola set 0.33",
+      price: 2.99,
+      img: "https://avatanplus.com/files/resources/original/59d4ea4d7d65215ee7b33eca.png",
+      amount: 1,
+    },
+    {
+      id: 202,
+      title: "Coca-Cola 0.5",
+      price: 0.99,
+      img: "https://avatanplus.com/files/resources/original/5849a19648c4b158df9f331a.png",
+      amount: 1,
+    },
+    {
+      id: 203,
+      title: "Coca-Cola 1.0",
+      price: 1.49,
+      img: "https://avatanplus.com/files/resources/original/585b7cd3dcb51159255f9bc0.png",
+      amount: 1,
+    },
+    {
+      id: 204,
+      title: "Coca-Cola 0.33",
+      price: 0.89,
+      img: "https://avatanplus.com/files/resources/original/5725e9c95bf111546c193aa1.png",
+      amount: 1,
+    },
+    {
+      id: 205,
+      title: "Coca-Cola 0.33 zero",
+      price: 0.99,
+      img: "https://avatanplus.com/files/resources/original/5725e9c960ca01546c193ab4.png",
+      amount: 1,
+    }
+])
+
+db.datas.insertMany([
+    {
+      title: "jhagwdf",
+      price: 2.99,
+      img: "https://avatanplus.com/files/resources/original/59d4ea4d7d65215ee7b33eca.png",
+      amount: 1,
+    },
+    {
+      title: "tjji",
+      price: 0.99,
+      img: "https://avatanplus.com/files/resources/original/5849a19648c4b158df9f331a.png",
+      amount: 1,
+    },
+    {
+      title: "Cola 1.0",
+      price: 1.49,
+      img: "https://avatanplus.com/files/resources/original/585b7cd3dcb51159255f9bc0.png",
+      amount: 1,
+    },
+    {
+      title: "Coca 0.33",
+      price: 0.89,
+      img: "https://avatanplus.com/files/resources/original/5725e9c95bf111546c193aa1.png",
+      amount: 1,
+    },
+    {
+      title: "Coca-Cola zero",
+      price: 0.99,
+      img: "https://avatanplus.com/files/resources/original/5725e9c960ca01546c193ab4.png",
+      amount: 1,
+    }
+])
