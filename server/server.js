@@ -3,10 +3,13 @@ const mongoose = require("mongoose");
 const Mac = require("./models/mac");
 const Cola = require("./models/cola");
 const Pepsi = require("./models/pepsi");
+const Order = require("./models/order");
+
 
 require("dotenv/config");
 
 const app = express();
+
 
 const PORT = process.env.PORT || 5000;
 
@@ -22,7 +25,7 @@ app.get("/mac", (req, res) => {
   Mac.find()
     .then((result) => {
       res.json(result);
-      console.log(result);
+      // console.log(result);
     })
     .catch((err) => {
       console.log(err);
@@ -45,6 +48,17 @@ app.get("/pepsi", (req, res) => {
     .then((result) => {
       res.json(result);
       console.log(result);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+
+app.get("/order", (req, res) => {
+ req=>req.json
+    .then((data) => {
+    
+      console.log(data);
     })
     .catch((err) => {
       console.log(err);

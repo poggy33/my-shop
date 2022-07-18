@@ -49,9 +49,9 @@ span {
   margin: 18px 30px auto 30px;
 }
 
-.submit:hover, .add:hover {
+/* .submit:hover, .add:hover {
   background-color: rgb(36, 109, 105);
-}
+} */
 
 .markets a:hover {
   background-color: thistle;
@@ -175,3 +175,20 @@ h4 {
   background-color: black;
   color: ivory;
 }
+
+#submit {
+  position: absolute;
+  top: 84.5%;
+  left: 80%;
+  border-radius: 5px;
+  background-color: rgb(10, 136, 130);
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+
+#submit:hover, .add:hover {
+  background-color: rgb(36, 109, 105);
+}
+
+
